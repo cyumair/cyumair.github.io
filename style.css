@@ -1,0 +1,59 @@
+html {
+	height: 100%;
+	width : 100%;
+}
+body{
+		background-image: url(1.jpg);
+		
+		background-repeat: no-repeat;
+		background-position: center center;
+	 	background-attachment: fixed;
+		background-size: cover;
+}
+h1{
+    font-size: 400%;
+	font-family: 'Gloria Hallelujah', cursive;
+	color : grey;
+	position: relative;
+    top: 50px;
+	text-align: center;
+	padding: 5px ;
+	
+	
+}
+.b1 {
+	position: relative;
+    margin-top: 350px ;
+    margin-bottom: 30px;
+    
+	font-weight: 700 ;
+	text-transform: uppercase;
+	border-radius: 300px ;
+	font-family:'Righteous', cursive;
+	color : red ; 
+	border-width: 5px ;
+	text-align: center;
+}
+.b2 { 
+      padding :1rem 2rem;
+      font-size: 150%;
+}
+.b3 {
+	background-color: #1D2228;
+	border-color: #000000;
+	}
+.b3 :hover {
+	border-width: 5px ; 
+	background-color: red ; 
+	border-color :black ;
+	cursor:pointer;
+}
+#go{
+  display:block ; 
+  width:400px;
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align: center;
+}
